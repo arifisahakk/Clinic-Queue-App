@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791016547017",
+    "project_id": "clinicqueue-ee1c6",
+    "storage_bucket": "clinicqueue-ee1c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791016547017:android:015ff568429878e017a318",
+        "android_client_info": {
+          "package_name": "com.clinic.queue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkEF5jGqyuIrRxSKf5wSag0LADnp7p4RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
