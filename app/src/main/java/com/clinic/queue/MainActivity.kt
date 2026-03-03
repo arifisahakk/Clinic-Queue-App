@@ -19,6 +19,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.google.firebase.database.FirebaseDatabase
 
 // ── Colour palette ──────────────────────────────────────────
 val DarkBg      = Color(0xFF0D1117)
@@ -32,6 +33,10 @@ val TextMuted   = Color(0xFF8B949E)
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        FirebaseDatabase.getInstance(
+            "https://clinicqueue-ee1c6-default-rtdb.asia-southeast1.firebasedatabase.app/"
+        )
+
         setContent {
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "home") {
